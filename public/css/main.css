@@ -1,0 +1,317 @@
+/****
+**************Configuraciones de archivo de estilos CSS**************
+    SINTAXIS
+        REGLA
+         SELECTOR {
+           PROPIEDAD:VALOR DE LA PROPIEDAD
+                    } 
+    *ESPECIFICIDAD mata CASCADA
+    *En HERENCIA hijo mata a papa jaja
+    *En herencia, la cascada no importa
+    *HIJO mata especificifdad del papa
+*/
+
+/*
+******************
+SELECTOR UNIVERSAL para cuestiones generales
+******************
+*/
+
+* { font-family: Georgia, 'Times New Roman', Times, serif; 
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+
+    margin: 0%; 
+    /*width: 100vw;
+    height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    
+         }
+
+ /****HEADER (ENCABEZADO DE MI PAGINA WEB)****/
+
+/*******************************************
+SELECTORES DE ETIQUETA y SELECTORES DE CLASE
+********************************************
+*/
+
+header {
+
+    margin: 0%; 
+    padding: 0%; 
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+h1 {
+    color: black;
+   font-family: fantasy;
+    
+}
+
+h2 {
+    justify-content: center;
+    font-family: fantasy;
+    font-size: medium;
+}
+
+ /**** Menu Hamburguesa(BOOSTRAP)****/
+ 
+ /*.logopasioncrew {
+   font-size: 1%; */
+
+ .alturanav {
+    background-color: rgb(211, 152, 75);
+    width: 100vw;
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+   
+}
+
+.header_nav {
+    justify-content: space-around;
+}
+ 
+.carouselpropiesdadescss {
+  margin-left: 22%;
+  margin-right: 10%;
+  margin-bottom: 15%;
+  margin-top: 0%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 60%;
+  height: 30vh;
+  
+  
+   
+}
+
+.carouselcelulares {
+
+
+}
+
+ .colorburlywood {
+    color: chocolate;
+}
+
+.fuentemediana {
+         font-size: medium
+}
+
+.fuentegrande {
+    font-size: x-large;
+
+}
+
+.fontfamily1 {
+    font-family: fantasy
+}
+
+
+.colormenuverde {
+    background-color: rgb(44, 173, 44);
+}
+
+.colormenurosa {
+    background-color: rgb(219, 112, 130);
+}
+
+
+
+/****MAIN (PARTE PRINCIPAL DE MI PAGINA WEB)****/
+
+main { 
+    width: 100vw;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/***seccion_introduccion***/
+.seccionintroduccion {
+    width: 100%;
+    height: 10vh;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 2%;
+}
+
+.propiedadescarrusel {
+
+
+}
+
+
+img {
+
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    
+
+}
+
+
+
+
+
+
+.seccionsobrenosotros {
+   
+    background-color: rgb(44, 173, 44);
+    display: flex;
+    /*justify-content: center;*/
+   text-align: justify;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cursos_ {
+  
+    background-color: rgb(219, 112, 130);
+    /*justify-content: center;*/
+   text-align: justify;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 10%;
+    padding-left: 5%;
+
+
+}
+
+.novedades_ {
+
+    width: 100vw;
+    background-color: rgb(44, 173, 44);
+    display: flex;
+    /*justify-content: center;*/
+   text-align: justify;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 2%;
+   
+}
+
+.contacto_ {
+
+    width: 100vw;
+    background-color: rgb(219, 112, 130);
+    display: flex;
+    /*justify-content: center;*/
+   text-align: justify;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 2%;
+
+
+}
+
+/****FOOTER (PIE DE PAGINA DE MI WEB)****/
+
+footer {
+    background-color: rgb(211, 152, 75);
+       
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        height: 40vh;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 0%;
+        padding-right: 0%;
+        padding-left: 10%;
+        
+        margin-bottom: 1%;
+        
+        flex-wrap: wrap;
+        display: flex;
+        box-sizing: border-box;
+}
+
+.seccion_titulo {
+ 
+}
+
+.item_localización {
+    width: 100%;
+    display: flex;
+    margin-left: 20%;
+
+}
+
+.icono_localizacion {
+      font-size: 10px;
+}
+
+.seccion_contacto {
+margin-left: 20%;
+margin-right: 30%;
+}
+
+*/
+/*
+**********************
+OTROS SELECTORES DE CLASE
+**********************
+*/
+
+
+/*
+******************
+SELECTOR DE ID
+******************
+*/
+
+
+
+/*
+***************
+ ADAPTACIÓN SEGÚN PANTALLA (DISEÑO RESPONSIVO)
+
+(MIN=MINIMO)
+***************
+
+*/
+
+@media (min-width 685 px) {
+
+    /*ACA VAN LAS PROPIEDADES QUE QUIERO CON ESA MEDIDA DE PANTALLA 
+    */ 
+}
+
+@media (min-width 1068 px) {
+
+
+}
+    
